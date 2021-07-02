@@ -10,3 +10,6 @@ print(anagram)
 def is_max(lis):
     return max(lis)
 
+def average(lis):
+    return sum(lis)/len(lis)
+
