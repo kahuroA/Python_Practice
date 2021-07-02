@@ -6,4 +6,7 @@ if str1==str2 or sorted(str1)!=sorted(str2):
 elif sorted(str1)==sorted(str2):
     anagram[(str1, str2)]='is_anagram'
 print(anagram)
-    
+
+def is_max(lis):
+    return max(lis)
+
