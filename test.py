@@ -13,3 +13,4 @@ def is_max(lis):
 def average(lis):
     return sum(lis)/len(lis)
 
+print("my house is on fire")
