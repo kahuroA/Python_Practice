@@ -1,16 +1,2 @@
-bronze_package = {'starch' : 'rice',
-                  'stew' : 'chicken curry',
-                  'vegetables' : 'cabbages', 
-                  'desert' : 'melon'}
-silver_package = {'starch' : 'rice and chapati',
-                  'stew' : 'beef curry',
-                  'vegetables' : 'spinach', 
-                  'desert' : 'melon and bananas'}
-gold_package = {'starch' : 'chapati and mukimo',
-                  'stew' : 'beef curry',
-                  'vegetables' : 'managu', 
-                  'desert' : 'tart'}
-food_packages = {'bronze_package' : bronze_package.values(),
-                 'silver_package' : silver_package.values(),
-                 'gold_package' : gold_package.values()}
-print(food_packages)
+food_package={"Gold_Package":{"stew":"beans and managu", "carbes":"cahapati","desert":"ice_cream"}, "Silver_Package":{"stew":"ndengu and carrots", "carbs":"rice","dessert":"mangoes"}}
+print(food_package)
